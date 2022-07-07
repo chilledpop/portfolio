@@ -55,9 +55,9 @@ li a {
 }
 
 
-/* STYLING INTRO CONTAINER AND BUTTONS */
+/* STYLING BODY */
 
-.home-box {
+body main {
     margin: 60px 5%;
 }
 
@@ -67,9 +67,15 @@ li a {
 }
 
 
+.about-container {
+    margin-top: 100px;
+    padding: 50px 200px;
+}
+
+
 /* STYLING PAGE FONTS, TEXT COLOR, AND FONT SIZING */
 
-.intro-text {
+.body-font {
     font-family: 'Geneva';
 }
 
@@ -101,7 +107,7 @@ li a {
 
 
 .body-text {
-    font-size: 14px;
+    font-size: 20px;
 }
 
 
@@ -112,4 +118,37 @@ a {
 
 button {
     cursor: pointer;
+}
+
+
+
+/* STYLING ABOUT ME CONTAINER */
+
+.heading {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+
+.line-spacing {
+    line-height: 2;
+}
+
+
+.blue-text {
+    color: cornflowerblue;
+}
+
+
+img {
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    width: auto;
+    height: auto;
+}
+
+
+#about p {
+    padding-bottom: 80px;
 }
