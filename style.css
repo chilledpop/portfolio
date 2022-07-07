@@ -2,16 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: black;
+    color: white;
 }
 
-
-li a {
-    font-family:"Segoe UI", Tahoma, Verdana, sans-serif;
-    font-size: 20px;
-    color: black;
-    text-decoration: none;
-}
-
+/* STYLING HEADER AND NAVIGATION BAR */
 
 header {
     display: flex;
@@ -23,31 +18,98 @@ header {
 }
 
 
-header div span {
+li a {
+    font-family:"Segoe UI", Tahoma, Verdana, sans-serif;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+
+.logo {
     cursor: pointer;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     font-size: 40px;
 }
 
 
-header nav ul {
+.nav-links {
     list-style: none;
 }
 
 
-header nav ul li {
+.nav-links li {
     display: inline-block;
     padding: 0px 20px;
 }
 
 
-header nav ul li a {
+.nav-links li a {
     transition: all 0.3s ease 0s;
+    color: white;
 }
 
 
-header nav ul li a:hover {
-    color: #bdbdbd;
+.nav-links li a:hover {
+    color: cornflowerblue;
 }
 
 
+/* STYLING INTRO CONTAINER AND BUTTONS */
+
+.home-box {
+    margin: 60px 5%;
+}
+
+
+.intro-container {
+    padding: 50px;
+}
+
+
+/* STYLING PAGE FONTS, TEXT COLOR, AND FONT SIZING */
+
+.intro-text {
+    font-family: 'Geneva';
+}
+
+
+.purple-text {
+    color: #7145F5;
+}
+
+
+.subheading {
+    font-size: 25px;
+}
+
+
+.name {
+    font-size: 80px;
+    letter-spacing: 8px;
+}
+
+
+.contact-button {
+    background-color: #0C0227;
+    border-radius: 10px;
+    border-style: none;
+    font-family: 'Geneva';  
+    font-size: 18px;  
+    padding: 15px;
+}
+
+
+.body-text {
+    font-size: 14px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+button {
+    cursor: pointer;
+}
