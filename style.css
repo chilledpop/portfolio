@@ -68,7 +68,8 @@ body main {
 
 
 #about,
-#projects {
+#projects,
+#contact {
     margin-top: 100px;
     padding: 50px 200px;
 }
@@ -185,11 +186,25 @@ img {
 
 
 #projects span {
-    border: dotted;
-    padding: 5px;
+    color:darkcyan;
 }
 
 
 .row {
     display: inline-flex;
+}
+
+
+#projects a:hover {
+    color: honeydew;
+}
+
+
+#contact {
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
 }
