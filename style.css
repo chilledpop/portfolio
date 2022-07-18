@@ -175,18 +175,21 @@ img {
 #left-box {
     float: left;
     width: 50%;
-    height: 300px;
 }
 
 
 #right-box {
     float: right;
     width: 50%;
-    height: 300px;
 }
 
 
 #projects span {
     border: dotted;
     padding: 5px;
+}
+
+
+.row {
+    display: inline-flex;
 }
