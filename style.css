@@ -147,7 +147,6 @@ img {
     display: block;
     margin: auto;
     width: auto;
-    height: auto;
 }
 
 
@@ -175,13 +174,13 @@ img {
 
 #left-box {
     float: left;
-    width: 50%;
+    width: 100%;
 }
 
 
 #right-box {
     float: right;
-    width: 50%;
+    width: 100%;
 }
 
 
@@ -207,4 +206,34 @@ img {
 
 footer {
     text-align: center;
+}
+
+
+
+/* ----- media queries ----- */
+@media all and (max-width: 1000px) {
+    #about,
+    #projects,
+    #contact {
+        margin-top: 100px;
+        padding: 50px;
+    }
+
+    .heading {
+        text-align: center;
+    }
+}
+
+
+@media all and (max-width: 1200px) {
+    #projects div div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    img {
+        width: 80%;
+    }
 }
